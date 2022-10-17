@@ -63,3 +63,30 @@
     display: none;
   }
       
+@media screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
+h1 {
+    color: red
+}
+#name {
+    color: blue
+}
+*{
+    text-align: center
+}
+h3[class~="box px"] {
+    padding: 2px;
+  }
+h3,
+.px {
+  color: blue;
+}
+h3.px{
+    color:darkblue
+}
+h3 + p{
+    background-color: transparent;
+}
