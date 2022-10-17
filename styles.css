@@ -1,0 +1,65 @@
+.products{
+    background-color: transparent;
+    width: 20vw;
+    
+}
+.form-example{
+    color:brown
+    
+}
+.fit-picture{
+    width: 20%;
+    margin: 10px 50px 20px 0px;
+}
+.wrapper {
+    font-size: 1em;
+    margin-bottom: 50px;
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+  }
+  
+.px {
+    width: 800px;
+    opacity: 0.6;
+    margin: 5% auto;
+    position: sticky;
+    top: 20px;
+  }
+  
+.vw {
+    width: 50vw;
+    margin-bottom: 50px;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+    display: inline flow;
+    min-width: 5px;
+    max-width: 500px;
+    height: 100px;
+    position: static;
+    flex-grow: 4;
+  }
+.vw:active {
+    display: flex;
+    color: red
+  }
+.em {
+    width: 30em;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    border-style: dotted;
+    border-color: red;
+    border-width: thick;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-align: center;
+    flex-shrink: 3;
+    
+  }
+.em:hover {
+    display: none;
+  }
+      
